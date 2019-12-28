@@ -1,6 +1,7 @@
 # MySQL-Learning
 
 ### Create Database
+---
 
 ```
 CREATE DATABSE <name>;
@@ -16,4 +17,12 @@ CREATE DATABSE pet_store;
 
 ```
 CREATE DATABSE `Pet Store`;
+```
+
+
+
+### Drop Database
+---
+```
+DROP DATABASE <name>;
 ```
