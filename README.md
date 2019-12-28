@@ -13,7 +13,7 @@ E.g
 CREATE DATABSE pet_store;
 ```
 
- Note: Enclose the database name in quotes if name demands space character
+ Note: Enclose the database name in quotes if name demands space character.
 
 ```
 CREATE DATABSE `Pet Store`;
@@ -32,4 +32,10 @@ DROP DATABASE <name>;
 ---
 ```
 USE <database name>;
+```
+
+To know what database is currently used check the below command.
+
+```
+SELECT database();
 ```
