@@ -20,13 +20,10 @@ CREATE DATABSE pet_store;
 CREATE DATABSE `Pet Store`;
 ```
 
-
-
 #### Drop Database
 ```
 DROP DATABASE <name>;
 ```
-
 
 #### Use Database
 ```
@@ -78,4 +75,20 @@ DROP TABLE <tablename>
 E.g
 ```
 DROP TABLE cats;
+```
+
+#### Insert Into Table
+```
+INSERT INTO tablename 
+            (column_name, column_name) VALUES (value, value), 
+            (value, value), 
+            (value, value);
+```
+E.g
+```
+INSERT INTO cats (name, age) VALUES ('Dave', 8);
+```
+Multiple insert
+```
+INSERT INTO cats (name, age) VALUES ('Dave', 8), ('Grey', 11), ('Blue', 1);
 ```
