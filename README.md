@@ -1,7 +1,9 @@
 # MySQL Learnings
 
-### Create Database
+## Database
 ---
+
+#### Create Database
 
 ``` 
 CREATE DATABSE <name>;
@@ -21,15 +23,13 @@ CREATE DATABSE `Pet Store`;
 
 
 
-### Drop Database
----
+#### Drop Database
 ```
 DROP DATABASE <name>;
 ```
 
 
-### Use Database
----
+#### Use Database
 ```
 USE <database name>;
 ```
@@ -38,4 +38,45 @@ To know what database is currently used check the below command.
 
 ```
 SELECT database();
+```
+
+## Tables
+---
+#### Show Tables
+```
+SHOW TABLES;
+```
+#### Create Table
+
+```
+CREATE TABLE tablename
+  (
+    column_name data_type,
+    column_name data_type
+  );
+```
+E.g
+```
+CREATE TABLE cats
+  (
+    name VARCHAR(100),
+    age INT
+  );
+```
+
+#### Inspect Table
+```
+SHOW COLUMNS from <tablename>
+```
+```
+DESC <tablename>;
+```
+
+#### Drop Table
+```
+DROP TABLE <tablename>
+```
+E.g
+```
+DROP TABLE cats;
 ```
