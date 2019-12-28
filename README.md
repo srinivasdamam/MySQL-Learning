@@ -1,7 +1,6 @@
 # MySQL Learnings
 
 ## Database
----
 
 #### Create Database
 
@@ -41,7 +40,7 @@ SELECT database();
 ```
 
 ## Tables
----
+
 #### Show Tables
 ```
 SHOW TABLES;
